@@ -1,0 +1,16 @@
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.DAL\bin\Debug\net8.0\SeedData\Roles.json
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.DAL\bin\Debug\net8.0\SeedData\AppAdmin.json
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.DAL\bin\Debug\net8.0\MovieBest.DAL.deps.json
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.DAL\bin\Debug\net8.0\MovieBest.DAL.runtimeconfig.json
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.DAL\bin\Debug\net8.0\MovieBest.DAL.dll
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.DAL\bin\Debug\net8.0\MovieBest.DAL.pdb
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.DAL\obj\Debug\net8.0\MovieBest.DAL.csproj.AssemblyReference.cache
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.DAL\obj\Debug\net8.0\MovieBest.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.DAL\obj\Debug\net8.0\MovieBest.DAL.AssemblyInfoInputs.cache
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.DAL\obj\Debug\net8.0\MovieBest.DAL.AssemblyInfo.cs
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.DAL\obj\Debug\net8.0\MovieBest.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.DAL\obj\Debug\net8.0\MovieBest.DAL.dll
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.DAL\obj\Debug\net8.0\refint\MovieBest.DAL.dll
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.DAL\obj\Debug\net8.0\MovieBest.DAL.pdb
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.DAL\obj\Debug\net8.0\MovieBest.DAL.genruntimeconfig.cache
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.DAL\obj\Debug\net8.0\ref\MovieBest.DAL.dll

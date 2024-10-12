@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Planet</title>
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/css/font-awesome.min.css" rel="stylesheet">
+		<link href="/css/global.css" rel="stylesheet">
+		<link href="/css/index.css" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+		<script src="/js/bootstrap.bundle.min.js"></script>
+
+		<meta name="viewport" content="width=device-width" />
+		<title>@ViewBag.Title</title>
+
+	
+
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/v/bs5/jq-3.7.0/dt-2.1.8/af-2.7.0/b-3.1.2/fc-5.0.3/sc-2.4.3/sb-1.8.1/sp-2.3.3/sl-2.1.0/datatables.min.js"></script>
+	<section id="top">
+		<div class="container">
+			<div class="row top_1">
+				<div class="col-md-3">
+					<div class="top_1l pt-1">
+						<h3 class="mb-0"><a class="text-white" href="index.html"><i class="fa fa-video-camera col_red me-1"></i> Planet</a></h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="header">
+		<nav class="navbar navbar-expand-md navbar-light" id="navbar_sticky">
+			<div class="container">
+				<a class="navbar-brand text-white fw-bold" href="index.html"><i class="fa fa-video-camera col_red me-1"></i> Planet</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mb-0">
+
+						@if (User.Identity.IsAuthenticated == false)
+						{
+
+							<li class="nav-item">
+								<a class="nav-link" asp-action="Register" asp-controller="Account">Register</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" asp-action="Login" asp-controller="Account">Login</a>
+							</li>
+						}
+						else
+						{
+
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" asp-action="Index" asp-controller="Home">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" asp-action="AboutUs" asp-controller="Home" >About Us</a>
+						</li>
+
+						@if (User.IsInRole("Admin"))
+						{
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Admin
+								</a>
+								<ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" asp-action="Index" asp-controller="Movie">Movies</a></li>
+									<li><a class="dropdown-item" asp-action="Index" asp-controller="Genre">Genres</a></li>
+									<li><a class="dropdown-item" asp-action="Users" asp-controller="Admin">Users</a></li>
+									<li><a class="dropdown-item border-0" asp-action="GetRoles" asp-controller="Admin" >Roles</a></li>
+								</ul>
+							</li>
+						}
+						<li class="nav-item">
+							<a class="nav-link" asp-action="Index" asp-controller="Profile" >Profile</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" asp-action="LogOut" asp-controller="Account">LogOut</a>
+						</li>
+						}
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+    </section>
+    <div>
+        @RenderBody()
+		@RenderSection("scripts", required: false)
+    </div>
+</body>
+</html>

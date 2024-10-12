@@ -1,0 +1,89 @@
+﻿@model LoginViewModel
+@{
+	var successMessage = TempData["SuccessMessage"] as string;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Planet</title>
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/css/global.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+	<script src="/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+	@if (!string.IsNullOrEmpty(successMessage))
+	{
+		<div id="alert" class="alert alert-success">
+			<span style="width:30%">@successMessage</span>
+		</div>
+	}
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			setTimeout(function () {
+				$("#alert").fadeOut("slow");
+			}, 3000); // 3000 milliseconds = 3 seconds
+		});
+	</script>
+	<section id="center" class="center_o pt-2 pb-2">
+		<div class="container-xl">
+			<div class="row center_o1">
+				<div class="col-md-5">
+					<div class="center_o1l">
+						<h3 class="mb-0">Login</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact" class="pt-4 pb-4 bg_grey">
+		<div class="container-xl">
+			<div class="col-md-9">
+
+				<form asp-action="Login" asp-controller="Account" method="post">
+					<div asp-validation-summary="All" class="text-danger"></div>
+					<div class="contact_2l1 mt-3 row">
+						<div class="col-md-6">
+							<div class="contact_2l1i">
+								<input class="form-control" placeholder="User Name*" asp-for="UserName">
+								<span asp-validation-for="UserName" class="text-danger"></span>
+							</div>
+						</div>
+					</div>
+					<div class="contact_2l1 mt-3 row">
+						<div class="col-md-6">
+							<div class="contact_2l1i">
+								<input class="form-control" placeholder="Password*" asp-for="Password">
+								<span asp-validation-for="Password" class="text-danger"></span>
+							</div>
+						</div>
+					</div>
+
+					<br />
+					<button type="submit" class="btn btn-info" style="width:50%"> <b>Login</b> </button>
+
+
+				</form>
+				<br />
+				<p>
+					Don't have an account? <a asp-action="Register" asp-controller="Account" style="color:blue"><b>Sign Up</b></a>
+				</p>
+				<p>
+					Sign Up With Google? <a asp-action="GoogleLogin" asp-controller="Account" style="color:blue"><b>Sign Up</b></a>
+				</p>
+				<br />
+			</div>
+
+		</div>
+	</section>
+</body>
+</html>

@@ -1,0 +1,70 @@
+﻿@model ProfileViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Planet</title>
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/css/global.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+	<script src="/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+	<section id="center" class="center_o pt-2 pb-2">
+		<div class="container-xl">
+			<div class="row center_o1">
+				<div class="col-md-5">
+					<div class="center_o1l">
+						<h3 class="mb-0">@Model.userName Profile</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact" class="pt-4 pb-4 bg_grey" @* style="background-image:url(/Images/1.jpg); background-size:cover;background-position:center;background-repeat:no-repeat" *@>
+		<div class="container-xl">
+			<div class="col-md-9">
+
+					<div class="contact_2l1 mt-3 row">
+						<div class="col-md-6">
+							<div class="contact_2l1i">
+                            <p ><b>User Name :</b>  @Model.userName</p>
+							</div>
+                    </div>
+					<div class="col-md-6">
+                        <div class="contact_2l1i">
+                            <p><b>Your Roles :</b></p>
+                            <ol>
+                                @foreach (var role in Model.userRoles)
+                                {
+                                    <li>@role</li>
+                                }
+                            </ol>
+                        </div>
+                    </div>
+						<div class="col-md-6">
+                            <div class="contact_2l1i">
+                            <p ><b>User Email :</b>  @Model.Email</p>
+                            </div>
+                    </div>
+					
+					<br />
+
+                </div>
+				<a asp-action="ChangePassword" asp-controller="Profile" class="btn btn-info" style="width:45%;margin-bottom:10px"><b>Change Password</b></a>
+					<br />
+				<a asp-action="DeleteProfile" asp-controller="Profile" class="btn btn-danger" style="width:45%;"><b>Delete Profile</b></a>
+			</div>
+
+		</div>
+	</section>
+</body>
+</html>

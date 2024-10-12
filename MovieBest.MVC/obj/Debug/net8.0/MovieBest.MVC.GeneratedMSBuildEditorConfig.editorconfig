@@ -1,0 +1,159 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MovieBest.MVC
+build_property.RootNamespace = MovieBest.MVC
+build_property.ProjectDir = C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.MVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.MVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Account/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Admin/AddNewRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkTmV3Um9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Admin/DeleteRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Admin/DeleteUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Admin/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Admin/EditUserRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFVzZXJSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Admin/GetRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2V0Um9sZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Admin/GetUsersInRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2V0VXNlcnNJblJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Admin/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Genre/AddNew.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcQWRkTmV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Genre/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Genre/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Genre/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Movie/AddNew.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQWRkTmV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Movie/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Movie/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Movie/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Movie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Movie/Indexx.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcSW5kZXh4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Movie/WatchMovie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcV2F0Y2hNb3ZpZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Profile/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Profile/DeleteProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxEZWxldGVQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Shared/_MainLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ABDO.ABDOTALAT/Desktop/.Net/MVC/MovieBest.MVC/MovieBest.MVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-olw7kzmfdx

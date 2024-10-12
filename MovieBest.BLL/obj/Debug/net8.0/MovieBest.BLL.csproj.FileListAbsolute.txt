@@ -1,0 +1,17 @@
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.BLL\bin\Debug\net8.0\MovieBest.BLL.deps.json
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.BLL\bin\Debug\net8.0\MovieBest.BLL.dll
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.BLL\bin\Debug\net8.0\MovieBest.BLL.pdb
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.BLL\obj\Debug\net8.0\MovieBest.BLL.csproj.AssemblyReference.cache
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.BLL\obj\Debug\net8.0\MovieBest.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.BLL\obj\Debug\net8.0\MovieBest.BLL.AssemblyInfoInputs.cache
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.BLL\obj\Debug\net8.0\MovieBest.BLL.AssemblyInfo.cs
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.BLL\obj\Debug\net8.0\MovieBest.BLL.csproj.CoreCompileInputs.cache
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.BLL\obj\Debug\net8.0\MovieBest.BLL.dll
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.BLL\obj\Debug\net8.0\refint\MovieBest.BLL.dll
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.BLL\obj\Debug\net8.0\MovieBest.BLL.pdb
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.BLL\obj\Debug\net8.0\ref\MovieBest.BLL.dll
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.BLL\bin\Debug\net8.0\SeedData\Roles.json
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.BLL\bin\Debug\net8.0\SeedData\AppAdmin.json
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.BLL\bin\Debug\net8.0\MovieBest.DAL.dll
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.BLL\bin\Debug\net8.0\MovieBest.DAL.pdb
+C:\Users\ABDO.ABDOTALAT\Desktop\.Net\MVC\MovieBest.MVC\MovieBest.BLL\obj\Debug\net8.0\MovieBes.90170E19.Up2Date

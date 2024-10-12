@@ -1,0 +1,80 @@
+﻿@model List<ApplicationRole>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Planet</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/global.css" rel="stylesheet">
+    <link href="/css/index.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+    <script src="/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <main id="main" class="main">
+
+        <section id="center" class="center_o pt-2 pb-2">
+            <div class="container-xl">
+                <div class="row center_o1">
+                    <div class="col-md-5">
+                        <div class="center_o1l">
+                            <h2 class="mb-0">Roles Panel</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="center_o1r text-end">
+                            <h6 class="mb-0 col_red"><a href="#">Home</a> <span class="me-2 ms-2 text-light"><i class="fa fa-caret-right align-middle"></i></span> Contact</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="pt-4 pb-4 bg_grey">
+            <div class="container-xl">
+
+                <a asp-action="AddNewRole" asp-controller="Admin" class="btn btn-light" style="width:30%; margin-left:70%"><b>Add New Role</b> <i class="bi bi-plus"></i></a>
+                <br />
+                <!-- Table with stripped rows -->
+
+                <table class="table datatable" style="font-weight:bold">
+                    <thead class="col_red" style="font-size:22px">
+                        <tr>
+                            <th>Role Name </th>
+                        </tr>
+                    </thead>
+
+                    <tbody style="color:white; font-size:18px">
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Name</td>
+                                <td>
+                                    <a asp-action="GetUsersInRole" asp-controller="Admin" asp-route-ID="@item.Id" class="btn btn-outline-light">Users in Role</a>
+                                </td>
+                                <td>
+                                    <a asp-action="DeleteRole" asp-controller="Admin" asp-route-ID="@item.Id" class="btn btn-outline-danger">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <!-- End Table with stripped rows -->
+
+
+            </div>
+
+        </section>
+
+    </main><!-- End #main -->
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+﻿@model bool
+
+@{
+    ViewBag.Title = "Email Confirmation";
+}
+
+<h2>Email Confirmation</h2>
+
+@if (Model == true)
+{
+    <div class="alert alert-success">
+        Your email has been confirmed successfully! You can now log in to your account.
+    </div>
+}
+else if (Model == false)
+{
+    <div class="alert alert-danger">
+        There was a problem confirming your email. Please check the confirmation link and try again.
+    </div>
+}
+else
+{
+    <div class="alert alert-warning">
+        It looks like you have not confirmed your email yet. Please check your email for the confirmation link.
+    </div>
+}
+
+<a asp-controller="Account" asp-action="Login">Login</a>
